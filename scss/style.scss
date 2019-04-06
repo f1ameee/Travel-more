@@ -1,0 +1,260 @@
+@import "normalize";
+@import "layout";
+@import "elements";
+@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700i');
+// *{
+// 	border: 1px solid red;
+// }
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+body{
+	border: 15px solid #fff;
+	color: #fff;
+	font-family: "Josefin Sans";
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 0px;
+	padding-right: 0px;
+	max-width: 1110px;
+}
+.ba-intro{
+	background: url(../img/bg_1.jpg) no-repeat;
+	background-size: cover;
+	min-width: 100vh;
+	display: flex;
+}
+.ba-first-text{
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 265px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.ba-f-text{
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 5.3px;
+    padding-top: 7px;
+	text-align: center;
+}
+input[type="search"]{
+	height: 54px;
+	width: 470px;
+	border: 2px solid #fff;
+	color: #000;
+	padding-right: 26px;
+}
+input::placeholder{
+	color: #999999;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.4px;
+	text-align: center;
+}
+.ba-search{
+	padding-top: 47px;
+	position: relative;
+	margin-right: 153px;
+}
+.ba-button{
+	border: 2px solid #ffffff;
+	background-color: #5474fd;
+	margin-left: -8px;
+	width: 150px;
+	font-family: Aleo;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	height: 60px;
+}
+.ba-button1{
+    position: absolute;
+	top: 44%;
+	left: 101%;
+}
+
+.ba-scroll{
+	position: relative;
+}
+.ba-scroll p{
+	font-size: 14px;
+	letter-spacing: 2.8px;
+	font-weight: 400;
+	padding-top: 120px;
+	padding-bottom: 155px;
+	text-align: center;
+	
+}
+.ba-scroll img{
+	position: absolute;
+	top: 50%;
+    left: 48.3%;
+
+}
+.ba-header{
+	background-color: #5474fd;
+	height: 80px;
+	
+}
+.ba-menu{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 17px;
+
+}
+.ba-header-bar{
+	display: flex;
+}
+.ba-logo a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 2.4px;
+}
+.ba-logo{
+	padding-top: 28px;
+}
+li a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: Aleo;
+	color: #fff;
+}
+.ba-choose{
+background: url(../img/bg_2.jpg);
+background-size: cover;
+}
+.ba-choose-text{
+	font-family: Aleo;
+	font-size: 36px;
+	font-weight: 400;
+	padding-top: 200px;
+	padding-bottom: 60px;
+}
+.ba-choose-text2{
+	font-size: 16px;
+	color: #e8e8e8;
+	font-weight: 400;
+	letter-spacing: 1.6px;
+	padding-bottom: 35px;
+	line-height: 26px;
+}
+.ba-tt{
+	padding-bottom: 35px;
+}
+.img_2_1{
+	padding-top: 120px;
+	padding-left: 65px;
+}
+.img_2_2{
+	padding-left: 190px;
+	padding-bottom: 120px;
+}
+.ba-button2{
+	width: 225px;
+	height: 60px;
+	border: none;
+}
+.ba-place{
+	background-color: #333333;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.ba-place-st img{
+	display: block;
+	margin-left: 70px;
+	
+}
+.ba-place-st h2{
+	font-family: Aleo;
+	font-size: 36px;
+	color: #e8e8e8;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.ba-section-spain{
+	background: url(../img/bg_4.jpg);
+	background-size: cover;
+	padding-top: 230px;
+	padding-bottom: 100px;
+}
+.ba-text-b{
+	background-color: #232323;
+	opacity: 0.9;
+	width: 540px;
+	height: 371px;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+.ba-text-b h3{
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+.ba-text-b p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	padding-top: 15px;
+	padding-bottom: 19px;
+}
+.ba-button3{
+	height: 60px;
+	width: 225px;
+	border: none;
+}
+.ba-about-spain{
+	background: url(../img/bg_5.jpg);
+	background-size: cover;
+	// padding-top: 230px;
+	// padding-bottom: 100px;
+	height: 700px;
+	padding-right: 330px;
+	position: relative;
+}
+.ba-text-p{
+	position: absolute;
+	top: 33%;
+	left: 51%;
+}
+.ba-tourist{
+	background: url(../img/bg_6.jpg);
+	background-size: cover;
+	padding-top: 120px;
+}
+.ba-tour-z{
+	padding-top: 120px;
+	text-align: center;
+	padding-bottom: 95px;
+	font-size: 36px;
+	font-family: Aleo;
+	font-weight: 400;
+}
+.ba-tour-text{
+	padding: 60px 50px;
+	background-color: #333333;
+}
+.ba-tour-text h3{
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.ba-tour-text p{
+	font-size: 16px;
+	line-height: 26px;
+}
+.ba-tour-about{
+	display: flex;
+	padding-bottom: 200px;
+
+}
